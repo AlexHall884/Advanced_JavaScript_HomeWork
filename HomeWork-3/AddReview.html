@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Add a review</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="wrapper center">
+            <header class="header">
+                <div class="header__box">
+                    <a class="header__box-link" href="AddReview.html">Add a
+                        review</a>
+                    <a class="header__box-link" href="viewReview.html">View
+                        review</a>
+                </div>
+            </header>
+
+            <h1 class="tittle">Добавить отзыв о продукте</h1>
+            <form id="reviewForm" class="form">
+                <div class="form__product">
+                    <label class="form__product-label" for="productName">Название
+                        продукта:</label>
+                    <input placeholder="Введите название продукта"
+                        class="form__product-input" type="text"
+                        id="productName" required>
+                </div>
+                <div class="form__review">
+                    <label class="form__review-label" for="reviewText">Текст
+                        отзыва:</label>
+                    <textarea placeholder="Введите отзыв"
+                        class="form__review-textarea" id="reviewText"
+                        required></textarea>
+                </div>
+                <button class="btn-submit" type="submit">Добавить отзыв</button>
+            </form>
+            <img src="https://www.vizarti.ru/wp-content/uploads/2018/04/web.jpg"
+                alt="image">
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
